@@ -11,6 +11,10 @@ Each solution favors the most efficient approach; brute-force is used first only
 | Contains Duplicate | Easy | Brute force, pairwise comparison | O(n²) | [ContainsDuplicate.java](src/arrays/ContainsDuplicate.java) |
 | Best Time to Buy and Sell Stock | Easy | Single-pass, running minimum | O(n) | [MaxProfit.java](src/arrays/MaxProfit.java) |
 | Fibonacci Number | Easy | Iterative state tracking | O(n) | [Fibonacci.java](src/dp/Fibonacci.java) |
+| Binary Search | Easy | Divide and conquer, overflow-safe midpoint | O(log n) | [BinarySearch.java](src/binary_search/BinarySearch.java) |
+| Valid Anagram | Easy | Character frequency counting | O(n) | [ValidAnagram.java](src/strings/ValidAnagram.java) |
+| Move Zeroes | Easy | In-place two-pass array manipulation | O(n) | [MoveZeroes.java](src/arrays/MoveZeroes.java) |
+| Valid Palindrome | Easy | Two-pointer with character filtering | O(n) | [ValidPalindrome.java](src/strings/ValidPalindrome.java) |
 
 ## Conventions
 - One file per problem, named after the problem (not `Solution`) to avoid class-name collisions within the same package
