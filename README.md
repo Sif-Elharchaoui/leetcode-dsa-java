@@ -15,6 +15,10 @@ Each solution favors the most efficient approach; brute-force is used first only
 | Valid Anagram | Easy | Character frequency counting | O(n) | [ValidAnagram.java](src/strings/ValidAnagram.java) |
 | Move Zeroes | Easy | In-place two-pass array manipulation | O(n) | [MoveZeroes.java](src/arrays/MoveZeroes.java) |
 | Valid Palindrome | Easy | Two-pointer with character filtering | O(n) | [ValidPalindrome.java](src/strings/ValidPalindrome.java) |
+| Merge Sorted Array | Easy | Two-pointer, merged backward in place | O(m+n) | [MergeSortedArray.java](src/two_pointers/MergeSortedArray.java) |
+| Remove Duplicates from Sorted Array | Easy | Slow/fast pointer, in-place compaction | O(n) | [RemoveDuplicates.java](src/two_pointers/RemoveDuplicates.java) |
+| Majority Element | Easy | Boyer-Moore voting | O(n) | [MajorityElement.java](src/arrays/MajorityElement.java) |
+| Transpose Matrix | Easy | 2D array dimension swap | O(rows×cols) | [TransposeMatrix.java](src/matrix/TransposeMatrix.java) |
 
 ## Conventions
 - One file per problem, named after the problem (not `Solution`) to avoid class-name collisions within the same package
