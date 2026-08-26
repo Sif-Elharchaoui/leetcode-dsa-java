@@ -19,8 +19,12 @@ Each solution favors the most efficient approach; brute-force is used first only
 | Remove Duplicates from Sorted Array | Easy | Slow/fast pointer, in-place compaction | O(n) | [RemoveDuplicates.java](src/two_pointers/RemoveDuplicates.java) |
 | Majority Element | Easy | Boyer-Moore voting | O(n) | [MajorityElement.java](src/arrays/MajorityElement.java) |
 | Transpose Matrix | Easy | 2D array dimension swap | O(rows×cols) | [TransposeMatrix.java](src/matrix/TransposeMatrix.java) |
+| Maximum Subarray | Medium | Kadane's algorithm | O(n) | [MaxSubArray.java](src/arrays/MaxSubArray.java) |
+| Squares of a Sorted Array | Easy | Two-pointer, build result from outside-in | O(n) | [SortedSquares.java](src/two_pointers/SortedSquares.java) |
+| Rotate Array | Medium | Triple in-place reversal | O(n) | [RotateArray.java](src/arrays/RotateArray.java) |
+| Plus One | Easy | Digit array manipulation with carry | O(n) | [PlusOne.java](src/arrays/PlusOne.java) |
 
 ## Conventions
 - One file per problem, named after the problem (not `Solution`) to avoid class-name collisions within the same package
-- Package structure mirrors the problem's core pattern: `arrays`, `dp`, `two-pointers`, `strings`, etc.
+- Package structure mirrors the problem's core pattern: `arrays`, `dp`, `binary_search`, `strings`, `two_pointers`, `matrix`
 - When submitting to LeetCode directly, rename the class back to `Solution` — LeetCode compiles each submission in isolation, so this repo's naming convention doesn't apply there
