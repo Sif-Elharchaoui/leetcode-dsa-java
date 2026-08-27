@@ -23,6 +23,10 @@ Each solution favors the most efficient approach; brute-force is used first only
 | Squares of a Sorted Array | Easy | Two-pointer, build result from outside-in | O(n) | [SortedSquares.java](src/two_pointers/SortedSquares.java) |
 | Rotate Array | Medium | Triple in-place reversal | O(n) | [RotateArray.java](src/arrays/RotateArray.java) |
 | Plus One | Easy | Digit array manipulation with carry | O(n) | [PlusOne.java](src/arrays/PlusOne.java) |
+| Two Sum (HashMap) | Easy | Single-pass hash lookup, complement search | O(n) | [TwoSumHashMap.java](src/hashmap/TwoSumHashMap.java) |
+| Contains Duplicate (HashSet) | Easy | Single-pass set membership check | O(n) | [ContainsDuplicateHashSet.java](src/hashset/ContainsDuplicateHashSet.java) |
+| Valid Anagram (HashMap) | Easy | Character frequency map, `getOrDefault` | O(n) | [ValidAnagramHashMap.java](src/hashmap/ValidAnagramHashMap.java) |
+| Ransom Note | Easy | Character frequency map, availability check | O(n) | [RansomNote.java](src/hashmap/RansomNote.java) |
 
 ## Conventions
 - One file per problem, named after the problem (not `Solution`) to avoid class-name collisions within the same package
