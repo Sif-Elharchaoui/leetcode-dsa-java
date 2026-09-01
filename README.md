@@ -27,6 +27,14 @@ Each solution favors the most efficient approach; brute-force is used first only
 | Contains Duplicate (HashSet) | Easy | Single-pass set membership check | O(n) | [ContainsDuplicateHashSet.java](src/hashset/ContainsDuplicateHashSet.java) |
 | Valid Anagram (HashMap) | Easy | Character frequency map, `getOrDefault` | O(n) | [ValidAnagramHashMap.java](src/hashmap/ValidAnagramHashMap.java) |
 | Ransom Note | Easy | Character frequency map, availability check | O(n) | [RansomNote.java](src/hashmap/RansomNote.java) |
+| Valid Parentheses | Easy | Stack-based bracket matching | O(n) | [ValidParentheses.java](src/stack/ValidParentheses.java) |
+| Min Stack | Medium | Design - dual stack tracking running minimum | O(1) per op | [MinStack.java](src/stack/MinStack.java) |
+| Baseball Game | Easy | Stack application - running score history | O(n) | [BaseballGame.java](src/stack/BaseballGame.java) |
+| Implement Queue using Stacks | Easy/Medium | Design - FIFO built from two LIFO stacks | O(1) amortized | [QueueUsingStacks.java](src/stack/QueueUsingStacks.java) |
+| String to Integer (atoi) | Medium | Robust parsing - whitespace, sign, overflow clamping | O(n) | [StringToInteger.java](src/strings/StringToInteger.java) |
+| Add Binary | Easy | Digit-by-digit carry, StringBuilder | O(n) | [AddBinary.java](src/strings/AddBinary.java) |
+| Add Strings | Easy | Digit-by-digit carry, base 10 | O(n) | [AddStrings.java](src/strings/AddStrings.java) |
+| Roman to Integer | Easy | HashMap lookup with subtractive notation edge case | O(n) | [RomanToInteger.java](src/strings/RomanToInteger.java) |
 
 ## Conventions
 - One file per problem, named after the problem (not `Solution`) to avoid class-name collisions within the same package
