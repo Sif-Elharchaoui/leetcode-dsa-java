@@ -35,6 +35,10 @@ Each solution favors the most efficient approach; brute-force is used first only
 | Add Binary | Easy | Digit-by-digit carry, StringBuilder | O(n) | [AddBinary.java](src/strings/AddBinary.java) |
 | Add Strings | Easy | Digit-by-digit carry, base 10 | O(n) | [AddStrings.java](src/strings/AddStrings.java) |
 | Roman to Integer | Easy | HashMap lookup with subtractive notation edge case | O(n) | [RomanToInteger.java](src/strings/RomanToInteger.java) |
+| Maximum Average Subarray I | Easy | Fixed-size sliding window | O(n) | [MaxAverageSubarray.java](src/slidingwindow/MaxAverageSubarray.java) |
+| Longest Substring Without Repeating Characters | Medium | Variable sliding window with HashSet | O(n) | [LongestSubstringNoRepeat.java](src/slidingwindow/LongestSubstringNoRepeat.java) |
+| Minimum Size Subarray Sum | Medium | Variable sliding window, shrink on condition | O(n) | [MinSizeSubarraySum.java](src/slidingwindow/MinSizeSubarraySum.java) |
+| Max Consecutive Ones III | Medium | Variable sliding window with a budget constraint | O(n) | [MaxConsecutiveOnesIII.java](src/slidingwindow/MaxConsecutiveOnesIII.java) |
 
 ## Conventions
 - One file per problem, named after the problem (not `Solution`) to avoid class-name collisions within the same package
