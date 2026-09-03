@@ -39,6 +39,10 @@ Each solution favors the most efficient approach; brute-force is used first only
 | Longest Substring Without Repeating Characters | Medium | Variable sliding window with HashSet | O(n) | [LongestSubstringNoRepeat.java](src/slidingwindow/LongestSubstringNoRepeat.java) |
 | Minimum Size Subarray Sum | Medium | Variable sliding window, shrink on condition | O(n) | [MinSizeSubarraySum.java](src/slidingwindow/MinSizeSubarraySum.java) |
 | Max Consecutive Ones III | Medium | Variable sliding window with a budget constraint | O(n) | [MaxConsecutiveOnesIII.java](src/slidingwindow/MaxConsecutiveOnesIII.java) |
+| Range Sum Query - Immutable | Easy | Design - precomputed prefix sum, O(1) range queries | O(1) query | [NumArray.java](src/prefixsum/NumArray.java) |
+| Subarray Sum Equals K | Medium | Prefix sum combined with HashMap | O(n) | [SubarraySumEqualsK.java](src/prefixsum/SubarraySumEqualsK.java) |
+| Product of Array Except Self | Medium | Prefix pass then suffix pass, no division | O(n) | [ProductExceptSelf.java](src/prefixsum/ProductExceptSelf.java) |
+| Find Pivot Index | Easy | Prefix sum, left/right balance point | O(n) | [FindPivotIndex.java](src/prefixsum/FindPivotIndex.java) |
 
 ## Conventions
 - One file per problem, named after the problem (not `Solution`) to avoid class-name collisions within the same package
